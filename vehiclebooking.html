@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Booking</title>
+</head>
+<body>
+    <h1>Vehicle Booking</h1>
+    <form action="/book" method="post">
+        <label for="username">FirstName:</label>
+        <input type="text" id="firstname" name="firstname" required>
+        <br><br>
+        <label for="password">LastName:</label>
+        <input type="text" id="lastname" name="lastname" required>
+        <br>
+        <p>Number of Vehicle</p>
+        <input type="radio" id="two" name="twowheeler">
+        <label for="html">2</label>
+        <input type="radio" id="four" name="fourwheeler">
+        <label for="css">4</label><br>
+        <p>Type of Vehicle</p>
+        <input type="radio" id="SUV" name="SUV">
+        <label for="html">SUV</label>
+        <input type="radio" id="hatchback" name="hatchback">
+        <label for="css">Hatchback</label><br><br>
+        <input type="radio" id="sedan" name="sedan">
+        <label for="css">Sedan</label><br>
+        <p>Bike Type</p>
+        <input type="radio" id="sports" name="sports">
+        <label for="html">Sports</label>
+        <input type="radio" id="cruiser" name="cruiser">
+        <label for="html">Cruiser</label><br><br>
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="startdate"><br><br>
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="enddate"><br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
